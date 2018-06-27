@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Worldcup Rxjs</title>
+  <script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script defer type="text/javascript" src="worldcup.js"></script>
+ </head>
+ <body>
+     <div></div>
+    <form class="form-inline">
+        <div class="form-group mx-sm-3 mb-2">
+        <input type="text"   class="form-control" id="input1" name="input1" placeholder="Team Name"/>
+        </div>
+        <button class="btn btn-primary" name="b1" id="b1">Search</button>
+    </form>
+    <div class="card" style="width: 45rem;">
+            <h5 class="card-header">Group A</h5>
+            <div class="card-body">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Played</th>
+            <th scope="col">Wins-Draws-Lost</th>
+            <th scope="col">Goals</th>
+            <th scope="col">Goal difference</th>
+            <th scope="col">Points</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+      </table>
+      </div>
+      </div>
+ </body>
+</html>
